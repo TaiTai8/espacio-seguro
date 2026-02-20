@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Espacio Seguro</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>🤍 Espacio Seguro</h1>
+    <p>Un lugar anónimo para desahogarte y sentirte acompañado/a</p>
+  </header>
+
+  <main>
+    <section class="box">
+      <h2>🫂 Desahógate</h2>
+      <textarea id="mensaje" placeholder="Escribe lo que sientes..."></textarea>
+      <button onclick="guardarMensaje()">Guardar</button>
+      <div id="mensajes"></div>
+    </section>
+
+    <section class="box">
+      <h2>🌱 Notitas positivas</h2>
+      <p id="nota"></p>
+      <button onclick="nuevaNota()">Quiero otra</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Este espacio no sustituye ayuda profesional.</p>
+  </footer>
+</body>
+</html>
